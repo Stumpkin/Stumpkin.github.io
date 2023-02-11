@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=content-device">
+        <title> Sign Up | CSUMB Rough Otta Tournament </title>
+        <style>
+            body
+            {
+                background-image: url(BITest.png);
+                background-size: contain;
+                background-blend-mode: multiply;
+                background-color: rgba(127, 108, 234, 0.588);
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title"> CSMB Rough Otta Tournament </h1>
+        <p id="description"> CSUMB's First EVER Traditional Fighting Game Tournament </p>
+        <form id="survey-form"> 
+            <label id="name-label">
+                Name: <input id="name" type="text" name="name" required placeholder="Your Name Here!!!"> <br>
+            </label>
+
+            <label id="email-label">
+                Email: <input id="email" type="email" name="email" required placeholder="Your Email Here!!!"> <br>
+            </label>
+
+            <label id="number-label">
+                Student ID: <input id="number" type="number" name="number" min="0" max="9999999999999" placeholder="10"> (drop the first zeros) <br>
+            </label>
+            Select your game
+            <select id="dropdown">
+                <option></option>
+                <option> Street Fighter V: Champion Edition </option>
+                <option> Tekken 7 </option>
+                <option> Guilty Gear Strive </option>
+                <option> KOF XV </option>
+                <option> Melty Blood: Type Lumina </option>
+                <option> Skullgirls </option>
+                <option> Dragon Ball Fighterz </option>
+                <option> Under Night In-Birth [cl-r] </option>
+                <option> Mystery Game </option>
+            </select>
+            <h3> Do you have your own controller? </h3>
+            <label id="radio-option1">
+                Yes: <input id="N1" type="radio" name="controller-select" value="Dun" required>
+            </label>
+
+            <label>
+                No: <input id="N2" type="radio" name="controller-select" value="Ban" required>
+            </label>
+            <br><br>
+            Are their any other controllers that you are willing to try? 
+            <br>
+            Arcade Stick <input id="checked-controller" type="checkbox" name="trials" value="stick">
+            Hitbox <input id="checked-controller" type="checkbox" name="trials" value="hitbox">
+            Alternative Gamepads <input id="checked-controller" type="checkbox" name="trials" value="gamepad">
+            Something Else...<input id="checked-controller" type="checkbox" name="trial" value="something-else">
+            <br><br>
+            If there's any other fighting game that I should know about. Please tell me about it below.
+            <br>
+            <textarea name="response" cols="40" rows="15"></textarea> <br>
+            SEND IT! <input id="submit" type="submit"> 
+        </form> 
+    </body>
+</html>
