@@ -1,5 +1,11 @@
+<!--
+    Part 1 of Certificate
+    Author: Jalen Banks
+    Sources can be found at the bottom
+    Image was photoshoped by me
+-->
 <!DOCTYPE html>
-<html>
+<html lang=en>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=content-device">
@@ -8,60 +14,73 @@
             body
             {
                 background-image: url(BITest.png);
-                background-size: contain;
+                background-size: cover;
                 background-blend-mode: multiply;
                 background-color: rgba(127, 108, 234, 0.588);
+            }
+            form
+            {
+                background-color: rgba(255, 255, 255, 0.333);
+            }
+            .center
+            {
+                text-align: center;
             }
         </style>
     </head>
     <body>
-        <h1 id="title"> CSMB Rough Otta Tournament </h1>
-        <p id="description"> CSUMB's First EVER Traditional Fighting Game Tournament </p>
-        <form id="survey-form"> 
-            <label id="name-label">
-                Name: <input id="name" type="text" name="name" required placeholder="Your Name Here!!!"> <br>
-            </label>
+        <div class="center">
+            <h1 id="title" > CSMB Rough Otta Tournament </h1>
+            <p id="description"> CSUMB's First EVER Traditional Fighting Game Tournament </p>
+            <form id="survey-form"> 
+                <label id="name-label">
+                    Name: <input id="name" type="text" name="name" required placeholder="Your Name Here!!!"> <br>
+                </label>
 
-            <label id="email-label">
-                Email: <input id="email" type="email" name="email" required placeholder="Your Email Here!!!"> <br>
-            </label>
+                <label id="email-label">
+                    Email: <input id="email" type="email" name="email" required placeholder="Your Email Here!!!"> <br>
+                </label>
 
-            <label id="number-label">
-                Student ID: <input id="number" type="number" name="number" min="0" max="9999999999999" placeholder="10"> (drop the first zeros) <br>
-            </label>
-            Select your game
-            <select id="dropdown">
-                <option></option>
-                <option> Street Fighter V: Champion Edition </option>
-                <option> Tekken 7 </option>
-                <option> Guilty Gear Strive </option>
-                <option> KOF XV </option>
-                <option> Melty Blood: Type Lumina </option>
-                <option> Skullgirls </option>
-                <option> Dragon Ball Fighterz </option>
-                <option> Under Night In-Birth [cl-r] </option>
-                <option> Mystery Game </option>
-            </select>
-            <h3> Do you have your own controller? </h3>
-            <label id="radio-option1">
-                Yes: <input id="N1" type="radio" name="controller-select" value="Dun" required>
-            </label>
+                <label id="number-label">
+                    Student ID: <input id="number" type="number" name="number" min="0" max="9999999999999" placeholder="10"> (drop the first zeros) <br>
+                </label>
+                Select your game
+                <select id="dropdown" required>
+                    <option value="" disabled selected>Select your game</option>
+                    <option value="SFV"> Street Fighter V: Champion Edition </option>
+                    <option value="T7"> Tekken 7 </option>
+                    <option value="GGST"> Guilty Gear Strive </option>
+                    <option value="KOFXV"> King Of Fighters XV </option>
+                    <option value="MB:TL"> Melty Blood: Type Lumina </option>
+                    <option value="SG"> Skullgirls </option>
+                    <option value="DBFZ"> Dragon Ball Fighterz </option>
+                    <option value="UNI-cl-r"> Under Night In-Birth [cl-r] </option>
+                    <option value="Mystery"> Mystery Game </option>
+                </select>
+                <h3> Do you have your own controller? </h3>
+                <label id="radio-option1">
+                    Yes: <input id="N1" type="radio" name="controller-select" value="Dun" required>
+                </label>
 
-            <label>
-                No: <input id="N2" type="radio" name="controller-select" value="Ban" required>
-            </label>
-            <br><br>
-            Are their any other controllers that you are willing to try? 
-            <br>
-            Arcade Stick <input id="checked-controller" type="checkbox" name="trials" value="stick">
-            Hitbox <input id="checked-controller" type="checkbox" name="trials" value="hitbox">
-            Alternative Gamepads <input id="checked-controller" type="checkbox" name="trials" value="gamepad">
-            Something Else...<input id="checked-controller" type="checkbox" name="trial" value="something-else">
-            <br><br>
-            If there's any other fighting game that I should know about. Please tell me about it below.
-            <br>
-            <textarea name="response" cols="40" rows="15"></textarea> <br>
-            SEND IT! <input id="submit" type="submit"> 
-        </form> 
+                <label>
+                    No: <input id="N2" type="radio" name="controller-select" value="Ban" required>
+                </label>
+                <br><br>
+                Are their any other controllers that you are willing to try? 
+                <br>
+                Arcade Stick <input id="checked-controller-stick" type="checkbox" name="trials" value="stick">
+                Hitbox <input id="checked-controller-hitbox" type="checkbox" name="trials" value="hitbox">
+                Alternative Gamepads <input id="checked-controller-alt-pads" type="checkbox" name="trials" value="gamepad">
+                Something Else...<input id="checked-controller-other" type="checkbox" name="trial" value="something-else">
+                <br><br>
+                If there's any other fighting game that I should know about. Please tell me about it below.
+                <br>
+                <textarea name="response" cols="40" rows="15"></textarea> <br>
+                SEND IT <input id="submit" type="submit"> 
+            </form> 
+        </div>
     </body>
+    <!-- code inspired by https://www.geeksforgeeks.org/html-align-attribute/-->
+    <!--https://www.w3schools.com/tags/att_option_disabled.asp-->
+    <!--https://www.w3schools.com/css/css_align.asp-->
 </html>
