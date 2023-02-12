@@ -1,0 +1,27 @@
+footer
+{
+    background-color: blue;
+    color: hotpink;
+}
+
+fieldset
+{
+    background-image: url(pride-rainbow.gif);
+}
+
+label
+{
+    background-color:sienna;
+    color:aqua;
+}
+
+legend
+{
+    background-color: black;
+    color:blueviolet;
+}
+
+button
+{
+    background-image: url(pride-rainbow.gif);
+}

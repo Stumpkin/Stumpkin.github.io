@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=content-device">
     <title> Lab 2 </title>
+    <link rel="stylesheet" href="htlse.css">
   </head>
   <body>
     <h1> Sample Text</h1> 
@@ -11,20 +12,44 @@
     <figure>
       <img src="unregistered_hypercam_2_watermark.jpg">
       <figcaption>
-        funny unregistered hypercam 2watermark
+        funny unregistered hypercam 2 watermark
       </figcaption>
 
     </figure>
     <figure>
-      <img src="hide-the-pain-stockphoto-840x560.jpg">
+      <img height="440" src="hide-the-pain-stockphoto-840x560.jpg" alt="guy clearly in pain">
     </figure>
 
     <form>
       Is this guy in pain? <br>
       <label>
-        Yes <input id="q1" name="q1-yes" type="radio" value="q1=yes" required>
+        Yes <input id="q1" name="q1" type="radio" value="q1=yes" required>
+      </label>
+
+      <label>
+        No <input id="q2" name="q1" type="radio" value="q1-no" required>
       </label>
     </form>
 
+    <p> things to make a video back in the day</p>
+    <ul>
+      <li> <a href="https://www.solveigmm.com/en/products/hypercam/"> "unregistered" Hypercam 2</a></li>
+      <li> <a href="https://www.shutterstock.com/"> Stock images for content </a> </li>
+      <li> Windows Movie Maker</li>
+    </ul>
+    
+    <form>
+      <fieldset>
+        <legend>Free Stuff</legend>
+        Name: <input type="text" name="username"> <br>
+        Email: <input type="email" name="email"> 
+      </fieldset>
+
+      Send us your thoughts <br> <textarea id="thoughts" cols="20" rows="5"></textarea> <br>
+      Send it <button id="submit">submit</button>
+    </form>
+    <footer>
+      <p> "Banks" in the year 2023 </p>
+    </footer>
   </body>
 </html>
