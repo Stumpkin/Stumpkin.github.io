@@ -1,0 +1,41 @@
+h1
+{
+    margin-top: 0 auto;
+    text-align: center;
+    background-color: darkcyan;
+    font-family: 'Gloock', serif;
+    color: white;
+}
+
+h4
+{
+    text-align: right;
+    margin-top: -22px;
+    background-color: darkkhaki;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: lime;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img
+{
+    border-radius: 10px;
+}
+
+main
+{
+    background-color:darkblue;
+    text-align: center;
+}
+body
+{
+    background-color: gray;
+}
+
+footer
+{
+    text-align: center;
+    background-color: black;
+    color:darkviolet;
+}

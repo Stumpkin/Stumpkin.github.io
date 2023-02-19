@@ -2,6 +2,8 @@ footer
 {
     background-color: blue;
     color: hotpink;
+    border: 8px outset red;
+    border-radius: 150px;
 }
 
 fieldset
@@ -25,3 +27,23 @@ button
 {
     background-image: url(pride-rainbow.gif);
 }
+
+h1
+{
+    margin-top: 0 auto; /* center and aligns element  I THINK HMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM*/
+}
+
+img
+{
+    border-radius: 10px;
+    border: 10px inset purple;
+    width: 50%;
+    height: auto;
+}
+
+p
+{
+    font-family: "Poppings", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:1.7vw;
+}
+
