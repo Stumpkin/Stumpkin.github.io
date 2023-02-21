@@ -1,0 +1,43 @@
+main span
+{
+    font-weight: bold;
+    color:red;
+    background-color: yellow;
+
+}
+
+footer span 
+{
+    color :orangered;
+}
+
+ul
+{
+    color:darkblue;
+}
+
+#random-words /* id word case match in html id="random-words" */
+{
+    color:forestgreen;
+
+}
+
+#image-2 
+{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* or whatever insert thing here */
+}
+
+#image-1
+{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.imageClass /* class word case match in html class="imageClass" */
+{
+    border: 8px inset rgb(255, 85, 0);
+    height: auto;
+    width: 50%;
+}
