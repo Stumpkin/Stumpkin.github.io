@@ -1,0 +1,16 @@
+#image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+#main {
+    text-align: center;
+}
+
+#image
+{
+    text-align: center;
+}
+
+/* make this into a sperate file */
