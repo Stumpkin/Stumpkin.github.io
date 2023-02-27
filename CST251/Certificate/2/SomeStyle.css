@@ -2,15 +2,51 @@
     max-width: 100%;
     height: auto;
     display: block;
+    margin:0 auto;
 }
 
 #main {
     text-align: center;
+    color: white;
 }
 
-#image
+#my-spoiler
 {
-    text-align: center;
+    color:black;
 }
 
-/* make this into a sperate file */
+html
+{
+    background-color: black;
+}
+li
+{
+    text-align: left;
+    margin: 10px;
+}
+
+#image-div
+{
+    align-items: center;
+}
+
+.refer
+{
+    font-weight: bold;
+    color:crimson;
+}
+
+.headings
+{
+    font-family: 'Noto Serif', serif;
+}
+
+#play-sh2
+{
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.reception-info
+{
+    font-family: 'Roboto', sans-serif;
+}
