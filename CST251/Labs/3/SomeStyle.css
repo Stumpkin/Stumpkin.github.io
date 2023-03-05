@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    width:100%;
+    top: 10px;
+    color:white;
+    background-color: black;
+}
+
+main {
+    margin-top:100px;
+}
+
+main figure {
+    width:50%;
+    margin:0 auto;
+    z-index: -1;
+    position: relative;
+}
+
+main figure img {
+    width: 100%;
+}
+
+
+a
+{
+    color:darkorange;
+}
+a:visited
+{
+    color: green;
+    font-weight: bold;
+}
+
+a:hover
+{
+    color:blue;
+}
+
+a:active
+{
+    color:red;
+}
+
+
+main figcaption
+{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.586);
+    width: 110%;
+    bottom: 20px;
+    
+}
+
+figcaption
+{
+    color:black;
+}
+
+figcaption:active
+{
+    color:rebeccapurple;
+}
+h2
+{
+    position:sticky;
+    top: 90px;
+    background-color: lightblue;
+}
+
+.images
+{
+    border:15px;
+    border-style:solid;
+    border-color:darkblue;
+}
+
+.images:hover
+{
+    border-color: indigo;
+}
