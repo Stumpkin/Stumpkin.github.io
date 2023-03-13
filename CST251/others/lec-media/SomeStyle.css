@@ -1,0 +1,36 @@
+html
+{
+    height: 100%;
+    width: 100%;
+}
+
+h1
+{
+    background-color: yellow;
+}
+
+.class
+{
+    display: inline-block;
+}
+nav a
+{
+    padding: 15px;
+}
+@media (max-width:720px)
+{
+    h1 
+    {
+        background-color: chocolate;
+        display: inline;
+    }
+}
+
+@media (max-width: 600px) {
+    nav a
+    {
+        display: block;
+        padding: 5px;
+        text-align: center;
+    }
+}
